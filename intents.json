@@ -1,0 +1,27 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hello", "whats up?", "Good day", "anyone there?","Hi there"],
+         "responses": ["Hi","Hello", "Hi, welcome to booking", "Good to see you", "Hi, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Bye","Thank you for visiting", "Have a nice day", "Hope to see you again."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "ok thanks"],
+         "responses": ["you are welcome", "Any time!", "My pleasure"]
+        },
+        {"tag": "packagequery",
+         "patterns": ["I am looking for travel packages", "What travel packages do you offer?", "Can you help me with booking", "Help me choose travel plan"],
+         "responses": ["We have 2 packages,Goa and Munnar", "You can choose from pack to Goa or Munnar"]
+        },
+        {"tag": "costquery",
+         "patterns": ["Do you take credit cards?", "what are payment options?", "Are you cash only?" ],
+         "responses": ["We accept VISA and Mastercard,also netbanking", "You can pay via netbanking or card options", "we accept netbanking as well as all major debit/credit cards "]
+        },
+        {"tag": "complaintcare",
+         "patterns": ["I am unable to book, can you help", "My transaction failed, what do I do?", "transaction completed but packaged not booked","I have issues with booking, can you help?"],
+         "responses": ["Please call us at our free", "Our Customer care member will call you","For any complaints or queries, reach us at toll free number"]
+        }
+   ]
+}
